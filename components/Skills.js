@@ -23,6 +23,10 @@ const Skills = () => {
       { name: "React Native", level: 70 },
       { name: "Swift", level: 80 },
     ],
+    "Other Languages": [
+        { name: "C#", level: 90 },
+        { name: "C++", level: 80 },
+    ],
     "Database & Cloud": [
       { name: "MongoDB", level: 85 },
       { name: "SQL", level: 80 },

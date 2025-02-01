@@ -33,13 +33,6 @@ const Projects = () => {
       category: "web",
       link: "#"
     },
-    {
-      id: 5,
-      title: "Open Source Contributions",
-      description: "Contributed to various open source projects on GitHub, enhancing libraries and frameworks for better performance and usability.",
-      category: "web",
-      link: "https://github.com/kolin-nielson"
-    },
   ]
 
   const filteredProjects = filter === "all" ? projects : projects.filter(project => project.category === filter)
