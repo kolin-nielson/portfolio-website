@@ -5,7 +5,7 @@ import { Link as ScrollLink } from 'react-scroll'
 import { useTheme } from 'next-themes'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const sections = ['about', 'skills', 'projects', 'testimonials', 'resume', 'contact']
+const sections = ['about', 'skills', 'projects', 'resume', 'contact']
 
 const Header = () => {
   const { theme, setTheme } = useTheme()

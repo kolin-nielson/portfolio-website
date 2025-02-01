@@ -13,10 +13,9 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault()
     emailjs.send(
-      'YOUR_SERVICE_ID',      // Replace with your EmailJS service ID
-      'YOUR_TEMPLATE_ID',     // Replace with your EmailJS template ID
+      'service_9k0x3y8',      
       formData,
-      'YOUR_USER_ID'          // Replace with your EmailJS public key/user ID
+      'Ln4zcCT9QsPEpOmHu'          // Replace with your EmailJS public key/user ID
     )
     .then((result) => {
       alert('Message sent successfully!')
@@ -38,7 +37,7 @@ const Contact = () => {
         >
           Contact Me
         </motion.h2>
-        <motion.form 
+        {/* <motion.form 
           onSubmit={sendEmail}
           className="max-w-md mx-auto mt-8 space-y-6"
           initial={{ opacity: 0 }}
@@ -85,7 +84,7 @@ const Contact = () => {
           >
             Send Message
           </button>
-        </motion.form>
+        </motion.form> */}
         <div className="mt-8">
           <p>Email: <a href="mailto:klnnielson@gmail.com" className="text-sky-400 hover:underline">klnnielson@gmail.com</a></p>
           <p>GitHub: <a href="https://github.com/kolin-nielson" className="text-sky-400 hover:underline">github.com/kolin-nielson</a></p>
