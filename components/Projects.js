@@ -47,7 +47,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center text-sky-400">Projects</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-sky-400">Project Highlights</h2>
         <div className="flex justify-center mt-6 space-x-4">
           <button onClick={() => setFilter("all")} className="px-4 py-2 bg-sky-400 text-white rounded hover:bg-sky-500 transition">All</button>
           <button onClick={() => setFilter("web")} className="px-4 py-2 bg-sky-400 text-white rounded hover:bg-sky-500 transition">Web</button>
